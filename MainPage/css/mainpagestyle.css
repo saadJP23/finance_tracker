@@ -1,0 +1,105 @@
+/* Basic Page Setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2b2d42;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar h2 {
+  margin: 5px 0;
+}
+
+.nav-links {
+  margin: 8px 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-buttons {
+  margin: 8px 0;
+  text-align: right;
+}
+
+.nav-buttons button {
+  background-color: white;
+  color: #2b2d42;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: right;
+}
+
+.nav-buttons button:hover {
+  background-color: #ddd;
+}
+
+/* Main Content */
+.main {
+  padding: 20px;
+}
+
+/* Card Boxes */
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #2b2d42;
+}
+
+/* Input Fields */
+input[type="number"],
+input[type="date"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+/* Buttons inside cards */
+.card button {
+  background-color: #2b2d42;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #8d99ae;
+}
+
+/* Simple list styling */
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul li {
+  margin: 5px 0;
+}
