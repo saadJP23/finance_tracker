@@ -6,11 +6,17 @@ body {
   padding: 0;
 }
 
+header {
+  display: flex;
+}
 /* Navbar */
 .navbar {
-  background-color: #2b2d42;
+  background-color: navy;
+  width: 100%;
   color: white;
-  padding: 10px 0;
+  padding: 20px 20px 10px 20px;
+  display: flex;
+  gap: 30px;
 }
 
 .navbar h2 {
@@ -19,9 +25,11 @@ body {
 
 .nav-links {
   margin: 8px 0;
+  display: flex;
 }
 
 .nav-links a {
+  display: inline-flex;
   color: white;
   text-decoration: none;
   margin: 0 10px;
@@ -32,8 +40,9 @@ body {
 }
 
 .nav-buttons {
+  padding-left: 56.7%;
   margin: 8px 0;
-  text-align: right;
+  display: flex;
 }
 
 .nav-buttons button {
@@ -43,8 +52,9 @@ body {
   padding: 5px 10px;
   margin: 5px;
   border-radius: 4px;
+  text-align: center;
   cursor: pointer;
-  align-items: right;
+  display: flex;
 }
 
 .nav-buttons button:hover {
@@ -102,4 +112,59 @@ ul {
 
 ul li {
   margin: 5px 0;
+}
+
+.dashboard_div {
+  display: flex;
+}
+.income_fieldset {
+  display: flex;
+  width: 25%;
+  height: 50%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 217, 217);
+}
+
+.expense_fieldset {
+  width: 25%;
+  height: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 217, 217);
+}
+
+.balance_fieldset {
+  width: 25%;
+  height: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 217, 217);
+}
+
+.analytics_div {
+  display: flex;
+}
+.incomegraph_fieldset {
+  width: 25%;
+  height: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 217, 217);
+}
+
+.expensegraph_fieldset {
+  width: 25%;
+  height: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 217, 217);
+}
+
+.balancegraph_fieldset {
+  width: 25%;
+  height: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 217, 217);
 }

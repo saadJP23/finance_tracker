@@ -8,38 +8,33 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <div class="navbar">
-      <h2>💰 PFT</h2>
-      <div class="nav-links">
-        <a href="#">Dashboard</a>
-        <a href="#">Analytics</a>
-        <a href="#">Goals</a>
-        <a href="#">Transactions</a>
+    <header>
+      <div class="navbar">
+        <h2>PFT</h2>
+        <div class="nav-links">
+          <a href="#">Dashboard</a>
+          <a href="#">Analytics</a>
+          <a href="#">Goals</a>
+          <a href="#">Transactions</a>
+        </div>
+        <div class="nav-buttons">
+          <button class="profile_button">Profile</button>
+        </div>
       </div>
-      <div class="nav-buttons">
-        <button>Log in / Sign up</button>
-        <button>Profile</button>
-      </div>
-    </div>
+    </header>
 
     <!-- Main Content: Main Page Content -->
     <div class="main">
       <!-- Dashboard Overview -->
       <div class="card">
         <h3>Dashboard Overview</h3>
-        <label><b>Total Income:</b></label>
-        <input type="number" value="85000" /> <br /><br />
-
-        <label><b>Total Expenses:</b></label>
-        <input type="number" value="45000" /> <br /><br />
-
-        <h4>Expense Categories:</h4>
-        <ul>
-          <li>🏠 Rent</li>
-          <li>🛒 Grocery</li>
-          <li>🚇 Transport</li>
-          <li>📺 Subscriptions</li>
-        </ul>
+        <div class="dashboard_div">
+          <fieldset class="income_fieldset">
+            <label><b>Total Income:</b></label>
+          </fieldset>
+          <fieldset class="expense_fieldset"><b>Expense:</b></fieldset>
+          <fieldset class="balance_fieldset"><b>Balance:</b></fieldset>
+        </div>
       </div>
 
       <!-- Reminders -->
@@ -63,12 +58,14 @@
 
       <!-- Add & Budget Section -->
       <div class="card">
-        <h3>Quick Add & Budget</h3>
-        <button>+100</button>
-        <button>+1000</button>
-        <button>+10000</button>
-        <br /><br />
-        <button>Set Monthly Budget</button>
+        <h3>Analytics</h3>
+        <div class="analytics_div">
+          <fieldset class="incomegraph_fieldset">
+            graph of monthly income
+          </fieldset>
+          <fieldset class="expensegraph_fieldset">graph of expense</fieldset>
+          <fieldset class="balancegraph_fieldset">graph of balance</fieldset>
+        </div>
       </div>
     </div>
   </body>
